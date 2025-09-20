@@ -1,0 +1,23 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/odongograce/week-3_code_challenge#readme",
+  "bugs": {
+    "url": "https://github.com/odongograce/week-3_code_challenge/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odongograce/week-3_code_challenge.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

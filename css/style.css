@@ -2,3 +2,8 @@
 {
  color: maroon;
 }
+.main{
+display: flex;
+margin: 30 20px;
+padding: 5 10px;
+}

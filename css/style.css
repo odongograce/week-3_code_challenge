@@ -2,8 +2,45 @@
 {
  color: maroon;
 }
-.main{
-display: flex;
-margin: 30 20px;
-padding: 5 10px;
+
+ .app {
+  display: flex;           
+  align-items: flex-start; 
+  gap: 40px;              
+  padding: 40px;
+}
+
+.films {
+  list-style: none;        
+  padding: 0;
+  margin: 0;
+  width: 300px;            
+}
+
+.films li {
+  cursor: pointer;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+  
+}
+
+#movie-details {
+  flex: 1;               
+  max-width: 800px;
+}
+
+#movie-details img {
+  width: 250px;          
+  height: auto;
+  margin-bottom: 15px;
+}
+
+#buy-ticket {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
 }

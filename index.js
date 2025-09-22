@@ -29,7 +29,7 @@ fetch("http://localhost:3000/films")
               if (res.ok) {
                 listItem.remove();
                 if (currentMovie && currentMovie.id === film.id) {
-                  document.getElementById("movie-details").innerHTML = "<p>Movie deleted. Select another movie.</p>";
+                  document.getElementById("movie-details").innerHTML = "<p>Movie deleted.</p>";
                 }
               }
             });
